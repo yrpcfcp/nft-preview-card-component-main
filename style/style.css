@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+      background-color: hsl(217, 54%, 11%);
+      color: white;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1rem;
+  }
+
+.nft-preview-card_container{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    min-height: 500px;
+    margin: auto;
+    width: 22%;
+}
+
+.nft-preview-card_img{
+    border-radius: 15px;
+    display: flex;
+    height: 250px;
+    margin: 15px;
+    width: 95%;
+}
+
+.nft-preview-card_img:hover{
+    filter: invert(80%);
+}
+
+.nft-preview-card_title{
+    color: white;
+    display: flex;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: -200px 0 0 540px;
+    opacity: 1.0;
+}
+
+.nft-preview-card_title:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.nft-preview-card_description{
+    color: hsl(215, 32%, 27%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    margin: 5px 0 0 540px;
+}
+
+.nft-preview-card_price{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin: 22px 0 0 540px;
+    padding: 5px;
+}
+
+.nft-preview-card_time-remaining{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin: -30px 500px 0 700px;
+    padding: 5px 7px;
+}
+
+.nft-preview-card_creator-image{
+    height: 30px;
+    
+}
+
+
+span{
+    color: hsl(215, 51%, 70%);
+    margin: 5px 0 0 5px;
+}
+
+.nft-preview-card_creator{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-weight: 300;
+    margin: 5px 500px 0 540px;
+    padding: 3px;
+}
+
+.nft-preview-card_creator:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-preview-card_juleswyvern{
+    margin: 5px;
+}
+
+hr{
+    width: 19%;
+    text-align:center;
+    opacity: 0.3;
+    margin: 12px auto;
+}
