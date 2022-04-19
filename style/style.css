@@ -117,3 +117,16 @@ hr{
     opacity: 0.3;
     margin: 12px auto;
 }
+
+/*------------------------------------------MEDIA QUERIES--------------------------------------  */
+
+@media screen and (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 90%;
+        margin:  150px auto 0px -150px;
+        width: 1350px;
+    }
+}
